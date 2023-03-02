@@ -1,4 +1,4 @@
 import {createApp} from 'vue'
 import App from './App.vue'
-
-createApp(App).mount('#app')
+import XPicker from "x-picker";
+createApp(App).use(XPicker).mount('#app')
