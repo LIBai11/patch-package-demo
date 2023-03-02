@@ -1,2 +1,2 @@
 # patch-package-demo
-patch-package测试
+pnpm源码补丁，仅做测试
