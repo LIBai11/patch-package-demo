@@ -1,0 +1,12 @@
+diff --git a/index.ts b/index.ts
+index 56aca4885ae54a0d759980d18f9a623139079172..879a06eac07afe8fa6bd39eb94d21dd39fb7fb9d 100644
+--- a/index.ts
++++ b/index.ts
+@@ -3,6 +3,7 @@ import Picker from './Picker.vue'
+ 
+ const pickerPlugin = {
+   install: (app: App) => {
++    console.log("源码已修改")
+     app.component('x-picker', Picker)
+   }
+ }

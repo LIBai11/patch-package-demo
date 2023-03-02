@@ -1,0 +1,12 @@
+diff --git a/node_modules/x-picker/index.ts b/node_modules/x-picker/index.ts
+index e43c1ff..d8ce495 100644
+--- a/node_modules/x-picker/index.ts
++++ b/node_modules/x-picker/index.ts
+@@ -3,6 +3,7 @@ import Picker from './Picker.vue'
+ 
+ const pickerPlugin = {
+   install: (app: App) => {
++      console.log("源码已被修改")
+     app.component('x-picker', Picker)
+   }
+ }
